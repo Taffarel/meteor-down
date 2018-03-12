@@ -95,8 +95,7 @@ Now, add that key to your MeteorDown script and tell which users you need to aut
 meteorDown.run({
   concurrency: 10,
   url: "http://localhost:3000",
-  key: 'YOUR_SUPER_SECRET_KEY',
-  auth: {userIds: ['JydhwL4cCRWvt3TiY', 'bg9MZZwFSf8EsFJM4']}
+  auth: {password: 'mypassword', email: 'test@test.com'}
 })
 ~~~
 
