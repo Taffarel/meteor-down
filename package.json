@@ -1,0 +1,57 @@
+{
+  "_from": "meteor-down",
+  "_id": "meteor-down@2.6.0",
+  "_inBundle": false,
+  "_integrity": "sha1-W+zbXI/Gj5luB8P/V2UMXJWvEVA=",
+  "_location": "/meteor-down",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "meteor-down",
+    "name": "meteor-down",
+    "escapedName": "meteor-down",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/meteor-down/-/meteor-down-2.6.0.tgz",
+  "_shasum": "5becdb5c8fc68f996e07c3ff57650c5c95af1150",
+  "_spec": "meteor-down",
+  "_where": "/home/tlima/sciensa-dev/acel-teste-stress-meteor",
+  "author": {
+    "name": "Meteorhacks"
+  },
+  "bin": {
+    "meteor-down": "./bin/meteor-down.js"
+  },
+  "bugs": {
+    "url": "https://github.com/meteorhacks/meteor-down/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "coffee-script": "1.9.x",
+    "ddp": "0.10.x",
+    "underscore": "1.7.x"
+  },
+  "deprecated": false,
+  "description": "Load testing for Meteor",
+  "devDependencies": {
+    "mocha": "1.21.x"
+  },
+  "homepage": "https://github.com/meteorhacks/meteor-down#readme",
+  "license": "MIT",
+  "main": "./lib/mdown.js",
+  "name": "meteor-down",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meteorhacks/meteor-down.git"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "version": "2.6.0"
+}
